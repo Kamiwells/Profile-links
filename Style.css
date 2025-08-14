@@ -1,0 +1,230 @@
+/* Fonts */
+@font-face {
+    font-family: Inter-Bold;
+    src: url(Fonts/Inter-Bold.ttf);
+}
+@font-face {
+    font-family: Inter-Semibold;
+    src: url(Fonts/Inter-SemiBold.ttf);
+}
+@font-face {
+    font-family: Inter-Regular;
+    src: url(Fonts/Inter-Regular.ttf);
+}
+/* Html */
+html{
+    font-size: 62.5%;
+}
+/* body */
+body{
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 100%);
+    font-family: Inter-Regular;
+    text-align: center;
+}
+/* Profile image */
+.Profile-image{
+    background-image: url(Images/Baki.jpg);
+    width: 7rem;
+    height: 7rem;
+    background-size: cover;
+    border-radius: 5rem;
+    margin: 1rem auto;
+
+}
+/* Main card */
+.Main {
+    font-size: 1.5rem;
+    background: hsl(0, 0%, 12%);
+    margin: 10rem auto;
+    width: 30rem;
+    padding: 1rem;
+    border-radius: 1.1rem;
+}
+/* Buttons*/
+.button {
+    margin: 1.2rem auto;
+    padding: 1.1rem;
+    background-color: hsl(0, 0%, 20%);
+    width: 25rem;
+    border-radius: 0.8rem;
+    font-family: Inter-Semibold;
+}
+.button:hover{
+    background: hsl(75, 94%, 57%);
+}
+.button:hover a{
+    color: hsl(0, 0%, 12%);
+}
+/* links */
+a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+/* wirte-ups */
+#coloured{
+    color: hsl(75, 94%, 57%);
+    font-family: Inter-Semibold;
+    margin: 0 0 1rem  0;
+}
+h1{
+    font-family: Inter-bold;
+    margin: 0.5rem;
+}
+span{
+    font-size: 1.4rem;
+    margin-bottom: 4rem;
+}
+/* media-Q Mobile*/
+@media (min-width:375px) {
+/* Profile image */
+        .Profile-image {
+            background-image: url(Images/Baki.jpg);
+            width: 7rem;
+            height: 7rem;
+            background-size: cover;
+            border-radius: 5rem;
+            margin: 1rem auto;
+        }
+/* Main card */
+        .Main {
+            font-size: 1.5rem;
+            background: hsl(0, 0%, 12%);
+            margin: 10rem auto;
+            width: 25rem;
+            padding: 1rem;
+            border-radius: 1.1rem;
+        }
+/* Buttons*/
+        .button {
+            margin: 1.2rem auto;
+            padding: 1.1rem;
+            background-color: hsl(0, 0%, 20%);
+            width: 20rem;
+            border-radius: 0.8rem;
+            font-family: Inter-Semibold;
+            font-size: 1.3rem;
+                }
+        .container{
+            margin: 1rem auto;
+                }
+/* wirte-ups */
+        #coloured {
+            color: hsl(75, 94%, 57%);
+            font-family: Inter-Semibold;
+            margin-bottom: 2rem;
+            font-size: 1.3rem;
+        }
+
+        h1 {
+            font-family: Inter-bold;
+            margin: 0.5rem;
+        }
+
+        p{
+            font-size: 1rem;
+            margin-bottom: 2rem;
+            }
+        }
+/* media-Q tabs */
+@media (min-width:768px) {
+/* Profile image */
+        .Profile-image {
+            background-image: url(Images/Baki.jpg);
+            width: 9rem;
+            height: 9rem;
+            background-size: cover;
+            border-radius: 5rem;
+            margin: 1rem auto;
+        }
+/* Main card */
+        .Main {
+            font-size: 1.5rem;
+            background: hsl(0, 0%, 12%);
+            margin: 20rem auto;
+            width: 30rem;
+            padding: 3rem;
+            border-radius: 1.1rem;
+        }
+/* Buttons*/
+        .button {
+            margin: 1.2rem auto;
+            padding: 1.1rem;
+            background-color: hsl(0, 0%, 20%);
+            width: 25rem;
+            border-radius: 0.8rem;
+            font-family: Inter-Semibold;
+            font-size: 1.3rem;
+                }
+        .container{
+            margin: 1rem auto;
+                }
+/* wirte-ups */
+        #coloured {
+            color: hsl(75, 94%, 57%);
+            font-family: Inter-Semibold;
+            margin-bottom: 2rem;
+            font-size: 1.4rem;
+        }
+
+        h1 {
+            font-family: Inter-bold;
+            margin: 1rem;
+        }
+
+        p{
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            }
+}
+/* media-Q Desktop */
+@media (min-width:1024px) {
+/* Profile image */
+        .Profile-image {
+            background-image: url(Images/Baki.jpg);
+            width: 8rem;
+            height: 8rem;
+            background-size: cover;
+            border-radius: 5rem;
+            margin: 1rem auto;
+        }
+/* Main card */
+        .Main {
+            font-size: 1.5rem;
+            background: hsl(0, 0%, 12%);
+            margin: 4rem auto;
+            width: 30rem;
+            padding: 1.5rem;
+            border-radius: 1.1rem;
+        }
+/* Buttons*/
+        .button {
+            margin: 1.2rem auto;
+            padding: 1.1rem;
+            background-color: hsl(0, 0%, 20%);
+            width: 25rem;
+            border-radius: 0.8rem;
+            font-family: Inter-Semibold;
+            font-size: 1.3rem;
+                }
+        .container{
+            margin: 1rem auto;
+                }
+/* wirte-ups */
+        #coloured {
+            color: hsl(75, 94%, 57%);
+            font-family: Inter-Semibold;
+            margin-bottom: 2rem;
+            font-size: 1.4rem;
+        }
+
+        h1 {
+            font-family: Inter-bold;
+            margin: 1rem;
+        }
+
+        p{
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            }
+}
