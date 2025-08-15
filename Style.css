@@ -17,9 +17,9 @@ html{
 }
 /* body */
 body{
-    background-color: hsl(0, 0%, 8%);
+    background: hsl(0, 0%, 8%);
     color: hsl(0, 0%, 100%);
-    font-family: Inter-Regular;
+    font-family: Inter-Regular, sans-serif;
     text-align: center;
 }
 /* Profile image */
@@ -45,10 +45,10 @@ body{
 .button {
     margin: 1.2rem auto;
     padding: 1.1rem;
-    background-color: hsl(0, 0%, 20%);
+    background: hsl(0, 0%, 20%);
     width: 25rem;
     border-radius: 0.8rem;
-    font-family: Inter-Semibold;
+    font-family: Inter-Semibold, sans-serif;
 }
 .button:hover{
     background: hsl(75, 94%, 57%);
@@ -57,26 +57,26 @@ body{
     color: hsl(0, 0%, 12%);
 }
 /* links */
-a{
+.go-to{
     text-decoration: none;
     color: hsl(0, 0%, 100%);
 }
 /* wirte-ups */
-#coloured{
+.coloured{
     color: hsl(75, 94%, 57%);
-    font-family: Inter-Semibold;
+    font-family: Inter-Semibold, sans-serif;
     margin: 0 0 1rem  0;
 }
 h1{
     font-family: Inter-bold;
     margin: 0.5rem;
 }
-span{
+.para-g{
     font-size: 1.4rem;
-    margin-bottom: 4rem;
+    margin: 0 0 4rem 0;
 }
 /* media-Q Mobile*/
-@media (min-width:375px) {
+@media (min-width:23.4rem) {
 /* Profile image */
         .Profile-image {
             background-image: url(Images/Baki.jpg);
@@ -99,35 +99,35 @@ span{
         .button {
             margin: 1.2rem auto;
             padding: 1.1rem;
-            background-color: hsl(0, 0%, 20%);
+            background: hsl(0, 0%, 20%);
             width: 20rem;
             border-radius: 0.8rem;
-            font-family: Inter-Semibold;
+            font-family: Inter-Semibold, sans-serif;
             font-size: 1.3rem;
                 }
         .container{
             margin: 1rem auto;
                 }
 /* wirte-ups */
-        #coloured {
+        .coloured {
             color: hsl(75, 94%, 57%);
-            font-family: Inter-Semibold;
-            margin-bottom: 2rem;
+            font-family: Inter-Semibold, sans-serif;
+            margin: 0 0 2rem 0;
             font-size: 1.3rem;
         }
 
         h1 {
-            font-family: Inter-bold;
+            font-family: Inter-bold, Arial;
             margin: 0.5rem;
         }
 
-        p{
+        .para-g{
             font-size: 1rem;
-            margin-bottom: 2rem;
+            margin: 0 0 2rem 0;
             }
         }
 /* media-Q tabs */
-@media (min-width:768px) {
+@media (min-width:48rem) {
 /* Profile image */
         .Profile-image {
             background-image: url(Images/Baki.jpg);
@@ -150,40 +150,40 @@ span{
         .button {
             margin: 1.2rem auto;
             padding: 1.1rem;
-            background-color: hsl(0, 0%, 20%);
+            background: hsl(0, 0%, 20%);
             width: 25rem;
             border-radius: 0.8rem;
-            font-family: Inter-Semibold;
+            font-family: Inter-Semibold, sans-serif;
             font-size: 1.3rem;
                 }
         .container{
             margin: 1rem auto;
                 }
 /* wirte-ups */
-        #coloured {
+        .coloured {
             color: hsl(75, 94%, 57%);
             font-family: Inter-Semibold;
-            margin-bottom: 2rem;
+            margin:0 0 2rem 0;
             font-size: 1.4rem;
         }
 
         h1 {
-            font-family: Inter-bold;
+            font-family: Inter-bold, sans-serif;
             margin: 1rem;
         }
 
-        p{
+        .para-g{
             font-size: 1.2rem;
-            margin-bottom: 2rem;
+            margin:0 0 2rem 0;
             }
 }
 /* media-Q Desktop */
-@media (min-width:1024px) {
+@media (min-width:4rem) {
 /* Profile image */
         .Profile-image {
             background-image: url(Images/Baki.jpg);
-            width: 8rem;
-            height: 8rem;
+            width: 7rem;
+            height: 7rem;
             background-size: cover;
             border-radius: 5rem;
             margin: 1rem auto;
@@ -192,39 +192,40 @@ span{
         .Main {
             font-size: 1.5rem;
             background: hsl(0, 0%, 12%);
-            margin: 4rem auto;
+            margin: 10rem auto;
             width: 30rem;
-            padding: 1.5rem;
+            padding: 3rem 2rem;
             border-radius: 1.1rem;
         }
 /* Buttons*/
         .button {
             margin: 1.2rem auto;
             padding: 1.1rem;
-            background-color: hsl(0, 0%, 20%);
+            background: hsl(0, 0%, 20%);
             width: 25rem;
             border-radius: 0.8rem;
-            font-family: Inter-Semibold;
+            font-family: Inter-Semibold, sans-serif;
             font-size: 1.3rem;
                 }
         .container{
             margin: 1rem auto;
                 }
 /* wirte-ups */
-        #coloured {
+        .coloured {
             color: hsl(75, 94%, 57%);
-            font-family: Inter-Semibold;
-            margin-bottom: 2rem;
+            font-family: Inter-Semibold, sans-serif;
+            margin: 0 0 2rem 0;
             font-size: 1.4rem;
         }
 
         h1 {
-            font-family: Inter-bold;
+            font-family: Inter-bold, sans-serif;
             margin: 1rem;
+            font-size: 2rem;
         }
 
-        p{
+        .para-g{
             font-size: 1.2rem;
-            margin-bottom: 2rem;
+            margin:0 0 2rem 0;
             }
 }
